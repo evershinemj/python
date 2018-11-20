@@ -1,12 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
 
+__doc__ = \
+"""
+this module provides easy access to
+getting images from a certain url
+"""
+
 start = 200
 offset = 10
 path = '/Users/wangxueming/atlases'
 header = {'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11'} 
 
 def getimg(url, start, offset, path):
+    """
+    this is function getimg
+    in module getimg
+    """
 
     for i in range(offset):
         pageurl = url + str(start + i)
