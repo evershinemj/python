@@ -1,5 +1,5 @@
 #!/bin/bash
-# encoding=utf-8
+# encoding=gb2312
 
 import requests
 import re
@@ -20,6 +20,7 @@ def getsoup(url) -> BeautifulSoup:
     """
     response = requests.get(url, headers = header)
     html = response.text
+    print(response.encoding) # turns out to be ISO-8859-1
     soup = BeautifulSoup(html, 'lxml')
     return soup
 
@@ -37,7 +38,7 @@ def getmovielist(url):
     get a movie list as defined by <ul> tag
     """
     soup = getsoup(url)
-    a_list = soup.find('ul').find_next('ul').find_all('a')
+    a_list = soup.find('ul').find_all('a')
     for item in a_list:
         print(item.string)
 

@@ -1,0 +1,145 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	getcss.py	/^from bs4 import BeautifulSoup$/;"	i
+BeautifulSoup	getimg.py	/^from bs4 import BeautifulSoup$/;"	i
+BeautifulSoup	getjs.py	/^from bs4 import BeautifulSoup$/;"	i
+BeautifulSoup	getmovies.py	/^from bs4 import BeautifulSoup$/;"	i
+Countdown	Countdown.py	/^class Countdown:$/;"	c
+NamedTemporaryFile	tempfd.py	/^from tempfile import TemporaryFile, NamedTemporaryFile, TemporaryDirectory$/;"	i
+Sun	serialization.py	/^class Sun:$/;"	c
+TemporaryDirectory	tempfd.py	/^from tempfile import TemporaryFile, NamedTemporaryFile, TemporaryDirectory$/;"	i
+TemporaryFile	tempfd.py	/^from tempfile import TemporaryFile, NamedTemporaryFile, TemporaryDirectory$/;"	i
+__init__	Countdown.py	/^    def __init__(self, start):$/;"	m	class:Countdown
+__init__	serialization.py	/^    def __init__(self, exists):$/;"	m	class:Sun
+__iter__	Countdown.py	/^    def __iter__(self):$/;"	m	class:Countdown	file:
+__reversed__	Countdown.py	/^    def __reversed__(self):$/;"	m	class:Countdown	file:
+a	iter.py	/^a = [1, 3, 5, 7]$/;"	v
+a	reversed.py	/^a = [1, 4, 9, 16]$/;"	v
+a_iter	iter.py	/^a_iter = iter(a)$/;"	v
+abspath	path.py	/^abspath = os.path.abspath('text.txt')$/;"	v
+basename	getcss.py	/^basename = '\/Users\/wangxueming\/imgcss\/'$/;"	v
+basename	getjs.py	/^basename = '\/Users\/wangxueming\/imgjs\/'$/;"	v
+basename	path.py	/^basename = os.path.basename(file)$/;"	v
+calltime	randint.py	/^        calltime = 'calling random.randint(0, 10) {:>2}th time gets: '.format($/;"	v
+calltime	randomchoice.py	/^        calltime = 'call random.choice for  1st time: '$/;"	v
+calltime	randomchoice.py	/^        calltime = 'call random.choice for  2nd time: '$/;"	v
+calltime	randomchoice.py	/^        calltime = 'call random.choice for {0!s:>2}th time: '.format(i)$/;"	v
+calltime	randomshuffle.py	/^        calltime = 'call random.shuffle for  1st time: '$/;"	v
+calltime	randomshuffle.py	/^        calltime = 'call random.shuffle for  2nd time: '$/;"	v
+calltime	randomshuffle.py	/^        calltime = 'call random.shuffle for {0!s:>2}th time: '.format(i)$/;"	v
+caret	stringformat.py	/^caret = '{:^5}'.format('abc')$/;"	v
+chain	chain.py	/^from itertools import chain$/;"	i
+combinations	combinations.py	/^from itertools import combinations$/;"	i
+comma	stringformat.py	/^comma = '{:,}'.format(1234)$/;"	v
+conn	picklesql.py	/^conn = mysql.connector.connect(**dbconfig)$/;"	v
+connector	picklesql.py	/^import mysql.connector$/;"	i
+countdown	Countdown.py	/^    countdown = Countdown(10)$/;"	v	class:Countdown
+cursor	picklesql.py	/^cursor = conn.cursor()$/;"	v
+d	deque.py	/^d = deque(maxlen = 5)$/;"	v
+d	dict_zip.py	/^d = dict(zip(t1, t2))$/;"	v
+d	varlendeque.py	/^d = deque()$/;"	v
+data	tempfd.py	/^    data = f.read()$/;"	v
+dbconfig	picklesql.py	/^dbconfig = {$/;"	v
+deque	deque.py	/^from collections import deque$/;"	i
+deque	varlendeque.py	/^from collections import deque$/;"	i
+desc	serialization.py	/^    def desc(self):$/;"	m	class:Sun
+dirname	path.py	/^dirname = os.path.dirname(file)$/;"	v
+downjs	getjs.py	/^def downjs(url, basename):$/;"	f
+dumphtml	getmovies.py	/^def dumphtml(url): $/;"	f
+exists	path.py	/^from os.path import exists$/;"	i
+expanded_dirname	path.py	/^expanded_dirname = os.path.dirname(os.path.expanduser('~\/text.txt'))$/;"	v
+f	serialization.py	/^f = open('serialization', 'wb')$/;"	v
+file	path.py	/^file = '\/Users\/wangxueming\/text.txt'$/;"	v
+gen_chain	yieldfrom.py	/^def gen_chain(iterators):$/;"	f
+getcss	getcss.py	/^def getcss(url, basename):$/;"	f
+getimg	__doc__.py	/^import getimg$/;"	i
+getimg	__spec__.py	/^import getimg$/;"	i
+getimg	getimg.py	/^def getimg(url, start, offset, path):$/;"	f
+getlinelist	gettip.py	/^def getlinelist():$/;"	f
+getmovielist	getmovies.py	/^def getmovielist(url):$/;"	f
+getsoup	getmovies.py	/^def getsoup(url) -> BeautifulSoup:$/;"	f
+header	getcss.py	/^from getimg import header$/;"	i
+header	getimg.py	/^header = {'User-Agent' : 'Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit\/535.11 (KHTML, like Gecko) Chrome\/17.0.963.56 Safari\/535.11'} $/;"	v
+header	getjs.py	/^from getimg import header$/;"	i
+header	getmovies.py	/^from getimg import header$/;"	i
+ifexists	path.py	/^ifexists = exists('text.txt')$/;"	v
+isdir	path.py	/^isdir = os.path.isdir('text.txt')$/;"	v
+isfile	path.py	/^isfile = os.path.isfile('text.txt')$/;"	v
+islink	path.py	/^islink = os.path.islink('text.txt')$/;"	v
+l	combinations.py	/^l = [1, 2, 3]$/;"	v
+l	ltsload.py	/^    l = pickle.load(f)$/;"	v
+l	permutations.py	/^l = [1, 2, 3]$/;"	v
+l	randomchoice.py	/^l = []$/;"	v
+l	randomshuffle.py	/^l = [i for i in range(30) if i % 3 == 0]$/;"	v
+laquo	stringformat.py	/^laquo = '{:<5}'.format('abc')$/;"	v
+linelist	gettip.py	/^linelist = getlinelist()$/;"	v
+linenum	gettip.py	/^linenum = len(linelist)$/;"	v
+math	gettip.py	/^import math$/;"	i
+mysql	picklesql.py	/^import mysql.connector$/;"	i
+offset	getimg.py	/^offset = 10$/;"	v
+os	__doc__.py	/^import os$/;"	i
+os	getcss.py	/^import os$/;"	i
+os	getcss.py	/^import os.path$/;"	i
+os	getjs.py	/^import os$/;"	i
+os	getjs.py	/^import os.path$/;"	i
+os	os_walk.py	/^import os$/;"	i
+os	path.py	/^import os.path$/;"	i
+path	getcss.py	/^import os.path$/;"	i
+path	getimg.py	/^path = '\/Users\/wangxueming\/atlases'$/;"	v
+path	getjs.py	/^import os.path$/;"	i
+path	path.py	/^import os.path$/;"	i
+pattern	regex.py	/^pattern = re.compile(r'[abc]\\w+?[rst]')$/;"	v
+pencent	stringformat.py	/^pencent = '{:%}'.format(0.1)$/;"	v
+permutations	permutations.py	/^from itertools import permutations$/;"	i
+pickle	ltsload.py	/^import pickle$/;"	i
+pickle	pickledump.py	/^import pickle$/;"	i
+pickle	pickleload.py	/^import pickle$/;"	i
+pickle	picklesql.py	/^import pickle$/;"	i
+pickle	serialization.py	/^import pickle$/;"	i
+printtip	gettip.py	/^def printtip():$/;"	f
+r	stringformat.py	/^r = '{1!r:>10}|{0!r:^10}'.format('hey', 'funny')$/;"	v
+randi	randint.py	/^    randi = random.randint(0, 10) # including 0 and 10$/;"	v
+random	gettip.py	/^import random$/;"	i
+random	randint.py	/^import random$/;"	i
+random	randomchoice.py	/^import random$/;"	i
+random	randomshuffle.py	/^import random$/;"	i
+raquo	stringformat.py	/^raquo = '{:>5}'.format('abc')$/;"	v
+re	getcss.py	/^import re$/;"	i
+re	getmovies.py	/^import re$/;"	i
+re	regex.py	/^import re$/;"	i
+requests	__spec__.py	/^import requests$/;"	i
+requests	getcss.py	/^import requests$/;"	i
+requests	getimg.py	/^import requests$/;"	i
+requests	getjs.py	/^import requests$/;"	i
+requests	getmovies.py	/^import requests$/;"	i
+s	enumerate.py	/^s = 'enumerate'$/;"	v
+s	ltsload.py	/^    s = pickle.load(f)$/;"	v
+s	stringformat.py	/^s = '{0!s:>10}'.format(1)$/;"	v
+s1	chain.py	/^s1 = 'night'$/;"	v
+s1	zip.py	/^s1 = 'happy'$/;"	v
+s2	chain.py	/^s2 = 'sound'$/;"	v
+s2	zip.py	/^s2 = 'funny'$/;"	v
+size	path.py	/^size = os.path.getsize('text.txt')$/;"	v
+start	getimg.py	/^start = 200$/;"	v
+string	regex.py	/^string = "I'm about to have some fun. Absolutely!"$/;"	v
+sun	pickleload.py	/^    sun = pickle.load(f)$/;"	v
+sun	serialization.py	/^sun = Sun(True)$/;"	v
+sys	gettip.py	/^import sys$/;"	i
+t	ltsload.py	/^    t = pickle.load(f)$/;"	v
+t	tuple_enumerate.py	/^t = (2, 4, 6)$/;"	v
+t1	dict_zip.py	/^t1 = ('breakfast', 'lunch', 'supper')$/;"	v
+t1	zip_longest.py	/^t1 = (1, 2, 3)$/;"	v
+t2	dict_zip.py	/^t2 = ('bread', 'rice', 'noodles')$/;"	v
+t2	zip_longest.py	/^t2 = (1, 4, 9, 16)$/;"	v
+text	regex.py	/^text = "I'm happily and attentively editing the text."$/;"	v
+time	gettip.py	/^import time$/;"	i
+url	getcss.py	/^from pyvar import url$/;"	i
+url	getjs.py	/^from pyvar import url$/;"	i
+url	getmovies.py	/^url = 'https:\/\/www.dytt8.net'$/;"	v
+user	path.py	/^user = os.path.expanduser('~')$/;"	v
+var	path.py	/^var = os.path.expandvars('$SHELL')$/;"	v
+zip_longest	zip_longest.py	/^from itertools import zip_longest$/;"	i

@@ -1,3 +1,8 @@
+'''
+kodule doc
+use requests and BeautifulSoup
+to get images
+'''
 import requests
 from bs4 import BeautifulSoup
 
