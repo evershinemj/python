@@ -3,8 +3,7 @@
 
 
 namelist = ['Michael Jackson', 'Jay Chou', 'Jackie Chan', 'Albert Einstein']
-sortedlist = sorted(namelist, key = lambda x : x.split()[-1].lower())
-
+sortedlist = sorted(namelist, key=lambda x: x.split()[-1].lower())
 
 if __name__ == '__main__':
     print('original list: {0}'.format(namelist))
